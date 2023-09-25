@@ -48,7 +48,7 @@ function Produtos(){
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colSpan={5}>PRODUTOS INFORMÁTICOS - QTD:</td>
+                            <td colSpan={5}>PRODUTOS INFORMÁTICOS - QTD: {ListaProdutosExterna.length}</td>
                         </tr>
                     </tfoot>
                 </table>
