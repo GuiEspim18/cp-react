@@ -12,12 +12,6 @@ function Produtos(){
        setListaProdutosLocal(ListaProdutosExterna)
     }, [])
 
-    // //Usando o useEffect(hook) que executa sempre baseado em um determinado elemento. Este elemento pode ser:
-    // //Um elemento, um componente, um objeto, e ou uma váriavel. Que deve ser monitorado no array de dependencias
-    // useEffect(()=>{
-    //     console.log("Este useEffect renderiza apenas quando o objeto monitorado sofre alterações")
-    // }, [counter2])
-
     return(
         <div>
             <h1>Lista de Produtos</h1>
