@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 function Produtos(){
     
     document.title = "Lista de Produtos"
-    //Declarando o useState como uma lista de objetos [{}]
     const [listaProdutosLocal, setListaProdutosLocal] = useState([{}]);
 
-    //Estrutura que recebe a lista de produtos externa e repassa para uma lista local
     useEffect(()=>{
        setListaProdutosLocal(ListaProdutosExterna)
     }, [])
